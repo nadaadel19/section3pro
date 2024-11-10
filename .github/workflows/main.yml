@@ -16,4 +16,4 @@ jobs:
         run: ls
       - uses: actions/checkout@v3
       - name: "printing files after"
-        run: ls
+        run: ls -a
