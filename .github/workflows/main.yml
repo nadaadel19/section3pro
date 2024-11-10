@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "testing github"
-        run: pwd
-      - name: "printing name"
-        run: echo ali
+      - name: "printing files"
+        run: ls
+      
